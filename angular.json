@@ -146,6 +146,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "observable-requires-reaction"
+    }
+  },
+  "defaultProject": "observable-requires-reaction",
+  "cli": {
+    "analytics": false
+  }
 }
