@@ -1,5 +1,3 @@
-# mobx + mobx-angular
-
 ## observable requires reaction
 
 The `*mobxAutorun` and `*mobxReaction` directives do not get picked up as reactive contexts by the mobx configuration
