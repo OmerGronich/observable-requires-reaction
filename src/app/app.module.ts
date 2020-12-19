@@ -3,6 +3,7 @@ import {NgModule}      from '@angular/core';
 
 import {AppComponent}      from './app.component';
 import {MobxAngularModule} from 'mobx-angular';
+import {FormsModule}       from '@angular/forms';
 
 @NgModule({
             declarations: [
@@ -10,7 +11,8 @@ import {MobxAngularModule} from 'mobx-angular';
             ],
             imports     : [
               BrowserModule,
-              MobxAngularModule
+              MobxAngularModule,
+              FormsModule
             ],
             providers   : [],
             bootstrap   : [AppComponent]
